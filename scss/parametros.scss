@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color:#0e5249;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: url(../img/background1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main{
+    margin: 0;
+}

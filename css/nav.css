@@ -1,0 +1,14 @@
+.container-fluid {
+  background-color: #1db9b4; }
+
+.navbar-light .navbar-brand {
+  color: #00665C;
+  font-weight: 800;
+  margin-top: 5px; }
+
+.bg-light {
+  --bs-bg-opacity: 0; }
+
+.dropdown-menu {
+  background-color: #d1fff1;
+  border: 0px; }

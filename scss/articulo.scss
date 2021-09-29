@@ -1,0 +1,21 @@
+// --Parametros Globales--
+@import "./parametros.scss";
+
+// --Estuctura--// 
+
+
+@import "./header.scss" ;
+@import "./nav.scss" ;
+@import "./content-articulo.scss" ;
+@import "./footer.scss" ;
+
+
+// Arreglo footer---
+
+@media only screen and (min-width: 1131px) {
+    footer{
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}

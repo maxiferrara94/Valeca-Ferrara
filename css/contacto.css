@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #0e5249; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  background: url(../img/background1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+main {
+  margin: 0; }
+
+header {
+  background-color: #ffffff;
+  min-height: 6em;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999; }
+  header .cajaLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6em; }
+    header .cajaLogo #logo {
+      max-width: 60px;
+      max-height: 50px;
+      margin-top: 1px; }
+
+.container-fluid {
+  background-color: #1db9b4; }
+
+.navbar-light .navbar-brand {
+  color: #00665C;
+  font-weight: 800;
+  margin-top: 5px; }
+
+.navbar-light .navbar-brand:hover {
+  color: #00665C;
+  font-weight: 800;
+  margin-top: 5px; }
+
+.bg-light {
+  --bs-bg-opacity: 0; }
+
+.dropdown-menu {
+  background-color: #d1fff1;
+  border: 0px; }
+
+.tituloContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  padding-top: 1rem; }
+  .tituloContainer #titulo {
+    font-size: minmax(10px 30px);
+    text-align: center; }
+
+@media only screen and (max-width: 1150px) {
+  .imagen {
+    display: none; }
+  .containerFormularioImg form {
+    min-width: 90vw;
+    margin: 0 !important; } }
+
+.containerMapaTexto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0; }
+  .containerMapaTexto .flexContainerMapa {
+    width: 50%;
+    height: 80%;
+    margin: 1rem; }
+    .containerMapaTexto .flexContainerMapa iframe {
+      width: 100%;
+      height: 100%; }
+  .containerMapaTexto .containerTexto {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    max-width: 50%;
+    height: 100%; }
+    .containerMapaTexto .containerTexto .containerCTA {
+      display: flex;
+      max-height: 60px;
+      gap: 0.6rem; }
+      .containerMapaTexto .containerTexto .containerCTA img {
+        width: 50px;
+        height: 50px;
+        align-self: flex-start;
+        object-fit: cover; }
+      .containerMapaTexto .containerTexto .containerCTA p {
+        min-height: 100%;
+        align-self: flex-end;
+        overflow-wrap: anywhere; }
+
+.containerFormularioImg {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center; }
+  .containerFormularioImg .imagen {
+    margin: 2rem; }
+    .containerFormularioImg .imagen .img-fluid {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .containerFormularioImg form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem; }
+    .containerFormularioImg form input {
+      display: block;
+      margin: 0.4rem;
+      min-width: 35%; }
+    .containerFormularioImg form textarea {
+      resize: none;
+      display: block;
+      margin: 0.4rem;
+      max-width: 100%;
+      min-height: 50%; }
+    .containerFormularioImg form .servicioDeInteres {
+      display: flex;
+      max-width: 100%;
+      margin: 0.4rem; }
+      .containerFormularioImg form .servicioDeInteres label {
+        width: 50%; }
+      .containerFormularioImg form .servicioDeInteres select {
+        width: 50%; }
+    .containerFormularioImg form .botonesForm {
+      display: flex;
+      max-width: 100%; }
+      .containerFormularioImg form .botonesForm input {
+        width: 50%; }
+
+.footer_contenedor {
+  background-color: #464b50;
+  border-top: 20px solid #1db9b4;
+  display: flex;
+  height: 7em;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-evenly; }
+  .footer_contenedor img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover; }
+
+@media only screen and (min-width: 389px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 100%; } }

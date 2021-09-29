@@ -1,0 +1,17 @@
+.footer_contenedor {
+    background-color: #464b50;
+    border-top: 20px solid #1db9b4;
+    display: flex;
+    height: 7em;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-evenly; 
+    img {
+      width: 70px;
+      height: 70px;
+      object-fit: cover; }
+
+}
