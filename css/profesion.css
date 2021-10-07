@@ -109,7 +109,10 @@ header {
       .articulo .articulo__contenedor p {
         text-align: justify;
         max-width: 700px;
-        margin-left: 5px; } }
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; } }
 
 .footer_contenedor {
   background-color: #464b50;
