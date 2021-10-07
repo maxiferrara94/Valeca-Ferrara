@@ -112,7 +112,8 @@ header {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 1rem; }
   .containerFormularioImg .imagen {
     margin: 2rem; }
     .containerFormularioImg .imagen .img-fluid {
@@ -122,8 +123,7 @@ header {
   .containerFormularioImg form {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem; }
+    flex-direction: column; }
     .containerFormularioImg form input {
       display: block;
       margin: 0.4rem;
