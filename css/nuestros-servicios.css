@@ -169,10 +169,3 @@ a {
     width: 70px;
     height: 70px;
     object-fit: cover; }
-
-@media only screen and (min-width: 651px) {
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    max-height: 100%; } }
