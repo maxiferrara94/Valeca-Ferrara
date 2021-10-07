@@ -123,7 +123,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 2rem; }
+    padding-bottom: 1rem; }
     .containerFormularioImg form input {
       display: block;
       margin: 0.4rem;
@@ -163,10 +163,3 @@ header {
     width: 70px;
     height: 70px;
     object-fit: cover; }
-
-@media only screen and (min-width: 389px) {
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    max-height: 100%; } }
